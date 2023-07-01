@@ -42,17 +42,14 @@ namespace Views{
         }
         
         public LogisticaCreate(){
-            Text = "Registrar Logística";
-            StartPosition = FormStartPosition.CenterScreen;
-            FormBorderStyle = FormBorderStyle.FixedSingle;
-            MaximizeBox = false;
-            MinimizeBox = false;
-            ShowIcon = false;
-            ShowInTaskbar = false;
-            Size = new System.Drawing.Size(273,368);
-        
-        
-        
+            this.Text = "Registrar Logística";
+            this.StartPosition = FormStartPosition.CenterScreen;
+            this.FormBorderStyle = FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
+            this.ShowIcon = false;
+            this.ShowInTaskbar = false;
+            this.Size = new System.Drawing.Size(344,383);
         
         }
     }

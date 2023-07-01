@@ -1,5 +1,6 @@
 using Models;
 using Controllers;
+using System.Windows.Forms;
 
 namespace Views{
     public class EstoqueCreate : Form{
@@ -30,13 +31,12 @@ namespace Views{
         public EstoqueCreate(){
             
             this.Text = "Registrar estoque";
-            this.Size = new System.Drawing.Size(280, 360);
             this.StartPosition = FormStartPosition.CenterScreen;
             this.FormBorderStyle = FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.ShowIcon = false;
-            this.Size = new System.Drawing.Size(300,260);
+            this.Size = new System.Drawing.Size(280,260);
             
             this.lblEstoque = new Label();
             this.lblEstoque.Text = "Estoque:";

@@ -35,7 +35,7 @@ namespace Views{
             MinimizeBox = false;
             ShowIcon = false;
             ShowInTaskbar = false;
-            Size = new System.Drawing.Size(280, 360);
+            Size = new System.Drawing.Size(280, 240);
 
             lblidprod = new Label();
             lblidprod.Text = "ID:";

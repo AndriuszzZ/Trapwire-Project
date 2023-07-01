@@ -14,19 +14,6 @@ namespace Views {
 
         public LogisticaModels logistica;
 
-        // private void btUpdateLog_Click(object sender, EventArgs e) {
-        //     LogisticaModels logisticaToUpdate = this.Logistica;
-        //     logisticaToUpdate.Id = int.Parse(this.txtid.Text);
-        //     Controllers.LogisticaController.Update(logisticaToUpdate);
-        
-        //     ListLogistica logisticaList = Application.OpenForms.OfType<ListLogistica>().FirstOrDefault();
-        
-        //     if (logisticaList != null){
-        //         logisticaList.RefreshList();
-        //     }
-        //     this.Close();
-        // }
-
             private void btUpdate_Click(object sender, EventArgs e) {
                 LogisticaModels logisticaToUpdate = this.logistica;
                 logisticaToUpdate.Data = this.txtdata.Text;
@@ -49,11 +36,6 @@ namespace Views {
 
         public LogisticaUpdate(LogisticaModels logistica){
             this.logistica = logistica;
-
-
-
-        
-        
         }
     }
 }

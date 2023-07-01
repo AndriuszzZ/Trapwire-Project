@@ -44,8 +44,8 @@ namespace Views{
 
             lblMarcanome = new Label();
             lblMarcanome.Text = "Nome:";
-            lblMarcanome.Location = new Point(10, 20);
-            lblMarcanome.Size = new Size(50, 30);
+            lblMarcanome.Location = new Point(10, 50);
+            lblMarcanome.Size = new Size(50, 20);
             
             txtMarcanome = new TextBox();
             txtMarcanome.Location = new Point(80, 50);

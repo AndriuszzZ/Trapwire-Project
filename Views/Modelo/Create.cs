@@ -21,29 +21,29 @@ namespace Views{
 
 
         public ModeloCreate(){
-            Text = "Registrar Modelo";
-            StartPosition = FormStartPosition.CenterScreen;
-            FormBorderStyle = FormBorderStyle.FixedSingle;
-            MaximizeBox = false;
-            MinimizeBox = false;
-            ShowIcon = false;
-            ShowInTaskbar = false;
-            Size = new System.Drawing.Size(251,200);
+            this.Text = "Registrar Modelo";
+            this.StartPosition = FormStartPosition.CenterScreen;
+            this.FormBorderStyle = FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
+            this.ShowIcon = false;
+            this.ShowInTaskbar = false;
+            this.Size = new System.Drawing.Size(251,200);
 
-            lblNomemodelo = new Label();
-            lblNomemodelo.Text = "Modelo:";
-            lblNomemodelo.Location = new Point(10, 40); // Horizontal, Vertical
-            lblNomemodelo.Size = new Size(50, 20); // Largura, Altura
+            this.lblNomemodelo = new Label();
+            this.lblNomemodelo.Text = "Modelo:";
+            this.lblNomemodelo.Location = new Point(10, 50); // Horizontal, Vertical
+            this.lblNomemodelo.Size = new Size(50, 20); // Largura, Altura
 
-            txtNomemodelo = new TextBox();
-            txtNomemodelo.Location = new Point(80, 40);
-            txtNomemodelo.Size = new Size(150, 20);
+            this.txtNomemodelo = new TextBox();
+            this.txtNomemodelo.Location = new Point(80, 50);
+            this.txtNomemodelo.Size = new Size(100, 20);
 
-            btCadModelo = new Button();
-            btCadModelo.Text = "Cadastrar";
-            btCadModelo.Location = new Point(10, 130);
-            btCadModelo.Size = new Size(70, 20);
-            btCadModelo.Click += btCadModelo_Click;
+            this.btCadModelo = new Button();
+            this.btCadModelo.Text = "Cadastrar";
+            this.btCadModelo.Location = new Point(10, 100);
+            this.btCadModelo.Size = new Size(70, 20);
+            // btCadModelo.Click += btCadModelo_Click;
 
             Controls.Add(lblNomemodelo);
             Controls.Add(txtNomemodelo);

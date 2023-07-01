@@ -6821,19 +6821,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\joao_\\.nuget\\packages\\": {}
+    "C:\\Users\\CLIENTE\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\joao_\\projetotrapwire\\projetotrapwire.csproj",
+      "projectUniqueName": "C:\\Users\\CLIENTE\\Documents\\projeto-trapwire\\Trapwire-Project\\projetotrapwire.csproj",
       "projectName": "projetotrapwire",
-      "projectPath": "C:\\Users\\joao_\\projetotrapwire\\projetotrapwire.csproj",
-      "packagesPath": "C:\\Users\\joao_\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\joao_\\projetotrapwire\\obj\\",
+      "projectPath": "C:\\Users\\CLIENTE\\Documents\\projeto-trapwire\\Trapwire-Project\\projetotrapwire.csproj",
+      "packagesPath": "C:\\Users\\CLIENTE\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\CLIENTE\\Documents\\projeto-trapwire\\Trapwire-Project\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\joao_\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\CLIENTE\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0-windows"
@@ -6895,7 +6895,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.305\\RuntimeIdentifierGraph.json"
       }
     }
   }

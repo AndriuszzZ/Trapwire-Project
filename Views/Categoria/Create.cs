@@ -2,23 +2,22 @@ using Controllers;
 using Models;
 using System.Windows.Forms;
 
-namespace Views {
-
-    public class CategoriaCreate : Form {
-
+namespace Views{
+    public class CategoriaCreate : Form{
         public Label lblCategoriaNome;
         public TextBox txtCategoriaNome;
         public Button btCadCategoria;
 
-        public void btCadCategoria_Click(object sender, EventArgs e) {
+        public void btCadCategoria_Click(object sender, EventArgs e){
             if(txtCategoriaNome.Text == ""){
                 MessageBox.Show("Preencha o nome");
                 return;
-            } else {
+            }else{
                 CategoriaController.Create(txtCategoriaNome.Text);
                 MessageBox.Show("Categoria cadastrada com sucesso.");
                 ClearForm();
             }
+
             CategoriaView categoriaList = Application.OpenForms.OfType<CategoriaView>().FirstOrDefault();
             if (categoriaList != null){
                 categoriaList.RefreshList();
@@ -26,7 +25,7 @@ namespace Views {
             this.Close();
         }
 
-        private void ClearForm() {
+        private void ClearForm(){
             txtCategoriaNome.Clear();
         }
 
@@ -57,6 +56,7 @@ namespace Views {
 
             Controls.Add(lblCategoriaNome);
             Controls.Add(txtCategoriaNome);
+            Controls.Add(btCadCategoria);
         }
     }
 }
